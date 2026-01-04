@@ -184,7 +184,7 @@
     function handleLogin(e) {
         e.preventDefault();
         const p = document.getElementById('pass').value.trim().toUpperCase();
-        const codes = { "DOT": "DOT", "MOD": "MOD", "PD": "POLICE", "POLICE": "POLICE", "WT": "WAVE TOWN", "WAVETOWN": "WAVE TOWN" };
+        const codes = { "COURT": "COURT", "DOT": "DOT", "MOD": "MOD", "PD": "POLICE", "POLICE": "POLICE", "WT": "WAVE TOWN", "WAVETOWN": "WAVE TOWN" };
         
         if (codes[p]) {
             userRole = codes[p];
@@ -282,3 +282,4 @@
 </script>
 </body>
 </html>
+
